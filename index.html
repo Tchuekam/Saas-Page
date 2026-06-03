@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCHUEKAM Agent — Sovereign Infrastructure</title>
+    <meta name="description" content="Tchuekam Agent Infrastructure. Elite Sovereign AI deployment.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="dark-power">
+    <!-- Visual Overlays for Dark Power aesthetic -->
+    <div class="overlay noise pointer-events-none"></div>
+    <div class="overlay grid pointer-events-none"></div>
+
+    <main class="relative z-10 mx-auto max-w-container">
+        <header class="border-b">
+            <div class="header-container flex-between py-6">
+                <a href="/" class="brand no-underline">
+                    <h2 class="text-glow mono-bold tracking-widest text-4xl m-0 leading-tight">TCHUEKAM<br>AGENT</h2>
+                </a>
+                <nav class="hidden-mobile flex gap-8">
+                    <a href="#docs" class="nav-link mono text-sm tracking-widest uppercase">Docs<span class="blink">_</span></a>
+                    <a href="#portal" class="nav-link mono text-sm tracking-widest uppercase">Portal<span class="blink">_</span></a>
+                    <a href="#desktop" class="nav-link mono text-sm tracking-widest uppercase">CLI Interface<span class="blink">_</span></a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="hero-layout">
+            <section class="hero py-24 flex flex-col gap-8 items-start">
+                <div class="fade-in-up">
+                    <small class="metadata mono text-accent tracking-widest mb-4 inline-block uppercase opacity-70">TchueKam Agent • Enterprise Grade</small>
+                    <h1 class="font-expanded text-5xl md:text-6xl font-bold uppercase text-glow leading-tight m-0">Stop Babysitting Your AI.</h1>
+                </div>
+                
+                <div class="max-w-lg fade-in-up delay-1">
+                    <p class="description text-lg opacity-60 leading-relaxed font-sans">
+                        You're wasting time telling AI what to do step-by-step. TchueKam Agent works independently in the background, fully automating your coding, research, and daily tasks so you can focus on what actually matters.
+                    </p>
+                </div>
+                
+                <div class="install-block flex flex-col gap-6 w-full max-w-lg fade-in-up delay-2">
+                    <div class="install-step flex flex-col gap-2">
+                        <div class="step-header flex-between">
+                            <small class="mono text-sm tracking-widest opacity-50 uppercase">1. Deploy</small>
+                            <button class="copy-btn mono text-xs uppercase hover-text-accent transition-colors">Copy</button>
+                        </div>
+                        <div class="code-container bg-darker border p-4 mono text-sm">
+                            <code>curl -fsSL https://tchuekam.ai/install.sh | bash</code>
+                        </div>
+                    </div>
+                    
+                    <div class="install-step flex flex-col gap-2">
+                        <div class="step-header flex-between">
+                            <small class="mono text-sm tracking-widest opacity-50 uppercase">2. Initiate</small>
+                            <button class="copy-btn mono text-xs uppercase hover-text-accent transition-colors">Copy</button>
+                        </div>
+                        <div class="code-container bg-darker border p-4 mono text-sm">
+                            <code>tchuekam --deploy --force</code>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Visual Demo mimicking Hermes terminal but using our visual assets -->
+            <section class="visual-reveal py-16 hidden-mobile fade-in-up delay-3 relative">
+                <div class="visual-container border-glow relative h-full min-h-[400px] overflow-hidden bg-darker">
+                    <!-- Terminal Top Bar -->
+                    <div class="flex items-center gap-3 border-b px-4 py-2 bg-darkest">
+                        <div class="flex gap-2">
+                            <span class="w-3 h-3 rounded-full bg-accent"></span>
+                            <span class="w-3 h-3 rounded-full bg-accent opacity-50"></span>
+                            <span class="w-3 h-3 rounded-full bg-accent opacity-20"></span>
+                        </div>
+                        <span class="mono tracking-widest text-xs opacity-50 uppercase">Tchuekam Visual Feed</span>
+                    </div>
+                    <!-- Images -->
+                    <div class="relative w-full h-[360px]">
+                        <img src="assets/tchuekam-ui.jpg" class="absolute inset-0 w-full h-full object-cover mix-blend-screen opacity-50" alt="TCHUEKAM UI Architecture">
+                        <img src="assets/cyborg-head.png" class="absolute inset-0 w-full h-full object-contain mix-blend-color-dodge hover-scale transition-transform duration-700" style="left: 10%; top: 5%" alt="Cybernetic Interface">
+                        <div class="absolute inset-0 scanlines pointer-events-none"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="features border-t" id="features">
+            <div class="features-header py-8 border-b">
+                <small class="font-expanded text-base font-bold tracking-widest uppercase">System Capabilities</small>
+            </div>
+            
+            <div class="features-grid grid-3-cols">
+                <div class="feature-card border-r border-b p-8 hover-bg transition-colors relative group">
+                    <small class="mono tracking-widest text-glow uppercase mb-4 block">100% Private & Secure</small>
+                    <p class="opacity-60 leading-relaxed font-sans m-0">Runs entirely on your machine. Your data, code, and secrets never leave your computer.</p>
+                </div>
+                
+                <div class="feature-card border-r border-b p-8 hover-bg transition-colors relative group">
+                    <small class="mono tracking-widest text-glow uppercase mb-4 block">True Autonomy</small>
+                    <p class="opacity-60 leading-relaxed font-sans m-0">Just give it a goal. It breaks down the task, figures out the steps, and completes the job on its own.</p>
+                </div>
+                
+                <div class="feature-card border-b p-8 hover-bg transition-colors relative group">
+                    <small class="mono tracking-widest text-glow uppercase mb-4 block">Smart Problem Solving</small>
+                    <p class="opacity-60 leading-relaxed font-sans m-0">When things break or errors occur, it reads the logs, learns from mistakes, and fixes them automatically.</p>
+                </div>
+                
+                <div class="feature-card border-r p-8 hover-bg transition-colors relative group">
+                    <small class="mono tracking-widest text-glow uppercase mb-4 block">Web Browsing</small>
+                    <p class="opacity-60 leading-relaxed font-sans m-0">It can search the web, read documentation, and extract data just like a human would.</p>
+                </div>
+                
+                <div class="feature-card border-r p-8 hover-bg transition-colors relative group">
+                    <small class="mono tracking-widest text-glow uppercase mb-4 block">Scheduled Tasks</small>
+                    <p class="opacity-60 leading-relaxed font-sans m-0">Set up daily or weekly jobs and let the agent handle them while you sleep or take a break.</p>
+                </div>
+                
+                <div class="feature-card p-8 hover-bg transition-colors relative group">
+                    <small class="mono tracking-widest text-glow uppercase mb-4 block">Full OS Control</small>
+                    <p class="opacity-60 leading-relaxed font-sans m-0">Safely runs terminal commands, installs packages, and manages files directly on your system.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="py-8 border-b">
+            <a href="#install" class="no-underline mono text-sm tracking-widest uppercase opacity-70 hover:opacity-100 transition-opacity flex items-center gap-2 bg-transparent border-none text-white cursor-pointer">
+                Start Automating Now <span class="arrow text-accent">→</span>
+            </a>
+        </div>
+
+        <section id="install" class="py-16 border-b">
+            <div class="mb-12">
+                <small class="font-expanded text-base font-bold tracking-widest uppercase text-accent">Installation Protocol</small>
+                <h2 class="font-expanded text-4xl font-bold uppercase mt-4 mb-4 text-glow">Deploy in Minutes</h2>
+                <p class="opacity-60 leading-relaxed font-sans max-w-lg">Get TchueKam Agent running locally on your hardware. Zero telemetry. Full control over your AI environment.</p>
+            </div>
+
+            <div class="grid-2-cols">
+                <!-- Step 1 -->
+                <div class="feature-card border p-8 bg-darker relative group hover-bg transition-colors">
+                    <div class="text-accent mono text-2xl font-bold mb-4">01</div>
+                    <small class="mono tracking-widest text-glow uppercase mb-2 block">Prerequisites</small>
+                    <p class="opacity-60 leading-relaxed font-sans mb-6">Ensure your system has Python 3.10+ and Git installed. TchueKam works natively on macOS, Linux, and Windows.</p>
+                    <div class="code-container bg-darkest border p-4 mono text-sm">
+                        <code>python --version</code>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="feature-card border p-8 bg-darker relative group hover-bg transition-colors">
+                    <div class="text-accent mono text-2xl font-bold mb-4">02</div>
+                    <small class="mono tracking-widest text-glow uppercase mb-2 block">Global Install</small>
+                    <p class="opacity-60 leading-relaxed font-sans mb-6">Install the core agent infrastructure directly from our repository or via pip. This will install the CLI tool.</p>
+                    <div class="code-container bg-darkest border p-4 mono text-sm">
+                        <code>pip install tchuekam-agent</code>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="feature-card border p-8 bg-darker relative group hover-bg transition-colors">
+                    <div class="text-accent mono text-2xl font-bold mb-4">03</div>
+                    <small class="mono tracking-widest text-glow uppercase mb-2 block">Configuration</small>
+                    <p class="opacity-60 leading-relaxed font-sans mb-6">Set up your API keys. TchueKam supports DeepSeek, OpenRouter, Anthropic, and local models via Ollama.</p>
+                    <div class="code-container bg-darkest border p-4 mono text-sm">
+                        <code>tchuekam config set provider deepseek</code>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="feature-card border p-8 bg-darker relative group hover-bg transition-colors">
+                    <div class="text-accent mono text-2xl font-bold mb-4">04</div>
+                    <small class="mono tracking-widest text-glow uppercase mb-2 block">Initiate Agent</small>
+                    <p class="opacity-60 leading-relaxed font-sans mb-6">Launch the agent interface. From here, you can assign goals, monitor tasks, and review system operations.</p>
+                    <div class="code-container bg-darkest border p-4 mono text-sm">
+                        <code>tchuekam start</code>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-8 flex flex-wrap gap-8 justify-between opacity-70">
+            <small class="mono tracking-widest uppercase">TCHUEKAM AGENT</small>
+            <small class="mono tracking-widest uppercase text-accent">v1.0.0-rc.1</small>
+            <a href="#" class="no-underline mono tracking-widest uppercase hover:text-white transition-colors"><small>TCHUEKAM RESEARCH ↗</small></a>
+            <small class="mono tracking-widest uppercase">ENTERPRISE SECURE · 2026</small>
+        </footer>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
